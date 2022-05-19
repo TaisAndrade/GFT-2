@@ -1,0 +1,17 @@
+package test;
+
+public class Hospedagem {
+
+  
+
+  double preco = 240;
+
+  
+
+  public void printValor(){
+
+    System.out.println("O valor é: " + this.preco);
+
+  }
+
+  
