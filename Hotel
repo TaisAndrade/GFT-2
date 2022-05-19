@@ -1,0 +1,27 @@
+package test;
+
+public class Hotel {
+
+  public static void main(String[] args) {
+
+   
+
+   Hospedagem v = new Hospedagem();
+
+   System.out.println("Hospedagem Normal");
+
+   v.printValor();
+
+   HospedagemVip h = new HospedagemVip();
+
+      System.out.println("Hospedagem VIP");
+
+   h.printValor();
+
+   
+
+   
+
+  }
+
+}
