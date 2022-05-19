@@ -1,0 +1,17 @@
+package test;
+
+public class HospedagemVip extends Hospedagem{
+
+   
+
+   double adicional = preco + 50;
+
+   public void printValor(){  
+
+  System.out.println("O valor é: " + this.adicional);
+
+   }
+
+   
+
+}
